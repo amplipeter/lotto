@@ -11,7 +11,9 @@ class Tester {
 	 * sequential 1 to 50 Magic = 3 gives only max +1 allowed from number taken
 	 */
 
-	static int Magic = 17;//it is ok 2 feature maart
+	static int Magic = 17;//it is ok 2 feature maart peter versie
+	//1
+	//2
 
 	public static void main(String[] args) {
 		MijnTabel lotje = new MijnTabel();
