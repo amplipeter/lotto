@@ -12,7 +12,7 @@ class Tester {
 	 */
 
 	static int Magic = 17;//it is ok 2 feature maart peter versie
-	//1
+	//1b
 	//2
 
 	public static void main(String[] args) {
