@@ -1,6 +1,6 @@
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
-//2140
+//2140x2207
 class Tester {
 	static int totaal = 0;
 	static int totaal1 = 0;
