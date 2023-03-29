@@ -12,6 +12,7 @@ class Tester {
 	 */
 
 	static int Magic = 17;//it is ok 2 feature maart
+	//1a
 
 	public static void main(String[] args) {
 		MijnTabel lotje = new MijnTabel();
