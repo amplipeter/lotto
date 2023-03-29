@@ -1,6 +1,6 @@
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
-
+//2125
 class Tester {
 	static int totaal = 0;
 	static int totaal1 = 0;
@@ -11,9 +11,10 @@ class Tester {
 	 * sequential 1 to 50 Magic = 3 gives only max +1 allowed from number taken
 	 */
 
-	static int Magic = 17;//it is ok 2 feature maart peter versie
-	//1b
-	//2
+
+
+	static int Magic = 17;//it is ok 2 feature maart
+
 
 	public static void main(String[] args) {
 		MijnTabel lotje = new MijnTabel();
