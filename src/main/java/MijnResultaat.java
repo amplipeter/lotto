@@ -13,8 +13,8 @@ public class MijnResultaat {
 
         for (int r = 0; r < rows; r++)
         { System.out.println();
-            for (int c = 0 ; c < cols; c++)
-            {
+            int c = 0 ;
+            while (c < cols) {
                 try {
                     TimeUnit.MILLISECONDS.sleep(1);
                 } catch (InterruptedException e) {
@@ -24,6 +24,7 @@ public class MijnResultaat {
                 // System.out.print(resultaat[r] [c] + " ");
                 System.out.print( String.format("%02d", resultaat[r][c]) + "  ");
                 // System.out.println(" ");
+                c++;
             }
         }
     }
