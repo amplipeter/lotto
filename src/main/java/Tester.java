@@ -11,7 +11,7 @@ class Tester {
 	 * sequential 1 to 50 Magic = 3 gives only max +1 allowed from number taken
 	 */
 
-	static int Magic = 2;//it is ok 2 feature maart
+	static int Magic = 10;//it is ok 2 feature maart
 	//1a
 
 	public static void main(String[] args) {
@@ -30,7 +30,7 @@ class Tester {
 			// n = rand.nextInt(45) + 1;
 			// n = totaal + 1;
 			try {
-				TimeUnit.MILLISECONDS.sleep(10);
+				TimeUnit.MILLISECONDS.sleep(1);
 				n = rand.nextInt(45) + 1;
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
@@ -53,14 +53,14 @@ class Tester {
 					totaal++;
 				} else {
 					KostteMe = KostteMe + 1;
-					System.out.println(n + " is al geweest");
+					//System.out.println(n + " is al geweest");
 				}
 			}
 			//System.out.println(" shit random choice....." + n + " makes: " + (n - totaal) );
 		}
-		uitkomst[0].printResultaat();
-		System.out.println("");
-		System.out.println("-gebruik deze----------------");
+		//uitkomst[0].printResultaat();
+		//System.out.println("");
+		//System.out.println("-gebruik deze----------------");
 		uitkomst[1].printResultaat();
 		System.out.println("");
 		System.out.println("-----------------");
